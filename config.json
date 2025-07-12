@@ -3,7 +3,5 @@
     "subTitle":"杂七杂八",
     "avatarUrl":"https://avatars.githubusercontent.com/u/201747924?s=400&u=a5fdf22e1b0c3e2a90a27be7fc5dec534dabfa2e&v=4",
     "GMEEK_VERSION":"last",
-    "allHead":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'></script>",
-    "allHead":"<script src='https://shiranui1120.github.io/Orange.github.io/plugins/RonanTheme.js'></script><script type='text/javascript'>(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src='https://www.clarity.ms/tag/'+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, 'clarity', 'script', 'pss6qz1yjn');</script><script async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1948001195111241'crossorigin='anonymous'></script>"
-    
+    "allHead":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekVercount.js'></script>"
 }
