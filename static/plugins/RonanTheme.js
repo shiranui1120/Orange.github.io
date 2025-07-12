@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         html {    
-            background: url('https://blog.freeblock.cn/background.webp') no-repeat center center fixed;
+            background: url('https://shiranui1120.github.io/Orange.github.io/backgrou.webp') no-repeat center center fixed;
             background-size: cover;
         }
 
