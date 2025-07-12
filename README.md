@@ -1,6 +1,6 @@
-# Orange's Blog :link: https://shiranui1120.github.io/Orange.github.io/ 
+# Orange's Blog :link: https://shiranui1120.github.io/Orange.github.io 
 ### :page_facing_up: [4](https://shiranui1120.github.io/Orange.github.io/tag.html) 
 ### :speech_balloon: 0 
-### :hibiscus: 584 
-### :alarm_clock: 2025-07-12 15:50:10 
+### :hibiscus: 587 
+### :alarm_clock: 2025-07-12 16:18:42 
 ### Powered by :heart: [Gmeek](https://github.com/Meekdai/Gmeek)
