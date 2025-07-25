@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Orange's Blog</title><link>https://shiranui1120.github.io/Orange.github.io</link><description>杂七杂八</description><copyright>Orange's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/201747924?s=400&amp;u=a5fdf22e1b0c3e2a90a27be7fc5dec534dabfa2e&amp;v=4</url><title>avatar</title><link>https://shiranui1120.github.io/Orange.github.io</link></image><lastBuildDate>Thu, 24 Jul 2025 08:43:23 +0000</lastBuildDate><managingEditor>Orange's Blog</managingEditor><ttl>60</ttl><webMaster>Orange's Blog</webMaster><item><title>电赛</title><link>https://shiranui1120.github.io/Orange.github.io/post/dian-sai.html</link><description># 1.赛前培训
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Orange's Blog</title><link>https://shiranui1120.github.io/Orange.github.io</link><description>杂七杂八</description><copyright>Orange's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/201747924?s=400&amp;u=a5fdf22e1b0c3e2a90a27be7fc5dec534dabfa2e&amp;v=4</url><title>avatar</title><link>https://shiranui1120.github.io/Orange.github.io</link></image><lastBuildDate>Fri, 25 Jul 2025 02:20:39 +0000</lastBuildDate><managingEditor>Orange's Blog</managingEditor><ttl>60</ttl><webMaster>Orange's Blog</webMaster><item><title>电赛</title><link>https://shiranui1120.github.io/Orange.github.io/post/dian-sai.html</link><description># 1.赛前培训
 ## 1.1 赛前理论知识梳理
 - 运放：熟悉基础的运放知识
 [西交《你好！放大器》](https://ycnsiyj25rbf.feishu.cn/record/O5WMrARGpeajcZcYnSTcFt5Pndk)
@@ -9,9 +9,53 @@
 （注意调制度的概念，我查询到的为(Amax-Amin)/(Amax+Amin)，按个人简单理解为调制信号幅值与直流分量的比值)
 -[FM调制](https://blog.csdn.net/weixin_66634995/article/details/135971957)
 -[PM调制](https://blog.csdn.net/m0_37803477/article/details/131796491?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522dbe12aa679d2fe3b9010dd51308f6230%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=dbe12aa679d2fe3b9010dd51308f6230&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-131796491-null-null.142^v102^pc_search_result_base2&amp;utm_term=PM%E8%B0%83%E5%88%B6&amp;spm=1018.2226.3001.4187)
-## 1.2赛前设备准备
+## 1.2赛前设备仪器准备
+### 1.2.1赛前创电器件部分清单
 - 器件手册查询与阅读
+- [ ] 12位模数DAC7612（程控电压）                     
+- [ ] 精密运放COS2182-36V-5M-5pA RRIO
+- [ ] DC-DC升压转换器MT3608DDS
+- [ ] 开关电容器电压转换器LM2662
+- [ ] 波形发生器AD9833
+- [ ] 可编程四通道ADC-ADS8684
+- [ ] NPN 型双极结型晶体管SS9013
+- [ ] 模拟乘法器-AD633
+- [ ] 程控放大器-LTC6910-PGA
+- [ ] 模拟乘法器-AD835-readWYB
+- [ ] 电流检测ZXCT1009
+- [ ] 模拟开关-CD4051b-52-53
+- [ ] 高精度RMS-DC转换器AD637
+- [ ] 三端可调精密并联稳压器tl431
+- [ ] 高速通用运放MC33272-36V-24MHz 
+- [ ] 数字电位器-X9C103-503
+- [ ] 高速运放OPA842-200MHz 
+- [ ] 通用运放LM311
+- [ ] 高速运放OPA846-400MHz 
+- [ ] 通用运放LM358-D
+- [ ] 高速运放THS4001-30V-270MHz
+- [ ] 通用运放NE5532-30V-10MHz
+- [ ] 高速运放-电流反馈-AD8000-1.5GHz
+- [ ] 压控放大器-AD603_VGA（V-dB线性）
+- [ ] 高速运放-电流反馈THS3201-1.8GHz
+- [ ] 压控线性放大VCA810
+- [ ] 精密运放COS2177-36V-2M-2nA 
+- [ ] 有效值检测-AD637_RMS-DC
+- [ ] 有效值检测-AD737_RMS-DC
+- [ ] 有效值检测-LTC1966_RMS-DC
+
 [部分器件手册下载链接](https://ycnsiyj25rbf.feishu.cn/wiki/Q2y6wSN0PiJ85NkRLdqczMM8nzh#share-TyRodUH6joHCC8xl4JHcO3pYnNg)
+### 1.2.2创电仪器使用文档
+- 仪器说明书
+- [ ] PCB热转印机KH320C说明书                     
+- [ ] 波形发生器AFG-2225中文说明书
+- [ ] 波形发生器DG4000
+- [ ] 电子负载KL283说明书
+- [ ] 交流毫伏表TH1912A 图文并茂版/交流毫伏表TH1912A
+- [ ] 南京盛普SP-F10A数字合成函数发生器-产品手册
+- [ ] 失真度仪固纬GAD201G说明书
+- [ ] 示波器GDS2102说明书
+- [ ] 直流电子负载DL3000说明书
+[设备说明书下载链接](https://ycnsiyj25rbf.feishu.cn/wiki/Q2y6wSN0PiJ85NkRLdqczMM8nzh#share-KgYmdyMhtoeMnRxHF37cKVQgnwc)
 ## 1.3单片机基础使用
 ### 1.3.1STM32F407单片机
 （待编写，用网页跳转）
@@ -20,8 +64,8 @@
 ### 1.3.3一些库的使用
 - [CMSIS-DSP的使用与介绍](https://arm-software.github.io/CMSIS-DSP)（该DSP库有非常详尽的介绍，这里不班门弄斧）
 ## 1.4赛前培训资料与杂七杂八
+### 1.4.1电子设计竞赛题目
 - [历年电赛题目](https://ycnsiyj25rbf.feishu.cn/wiki/Q2y6wSN0PiJ85NkRLdqczMM8nzh#share-CI6AdtCQSocEEsxYcjEcTTZ3nJe)
 &gt; [!NOTE]
-&gt; 以nbu历年做的题目来看，信号题做的比较多，本人24年为无线传输信号模拟系统，队友为单相功率分析仪（锁TI板子）
-- [四阶滤波模块](https://pro.lceda.cn/editor#id=49eefc964ec04ce0b8576046c6b25045,tab=*ceafd680bea84109a16f879c25358e70@49eefc964ec04ce0b8576046c6b25045)（该为嘉立创网站可能失效，之后看看工程分享如何使用）。</description><guid isPermaLink="true">https://shiranui1120.github.io/Orange.github.io/post/dian-sai.html</guid><pubDate>Sat, 12 Jul 2025 06:34:30 +0000</pubDate></item><item><title>现代控制理论</title><link>https://shiranui1120.github.io/Orange.github.io/post/xian-dai-kong-zhi-li-lun.html</link><description>[现代控制理论.pdf](https://github.com/user-attachments/files/21192410/default.pdf)。</description><guid isPermaLink="true">https://shiranui1120.github.io/Orange.github.io/post/xian-dai-kong-zhi-li-lun.html</guid><pubDate>Sat, 12 Jul 2025 02:46:43 +0000</pubDate></item><item><title>经典控制理论</title><link>https://shiranui1120.github.io/Orange.github.io/post/jing-dian-kong-zhi-li-lun.html</link><description>[经典控制理论.pdf](https://github.com/user-attachments/files/21192366/default.pdf)。</description><guid isPermaLink="true">https://shiranui1120.github.io/Orange.github.io/post/jing-dian-kong-zhi-li-lun.html</guid><pubDate>Sat, 12 Jul 2025 02:37:06 +0000</pubDate></item><item><title>模电笔记</title><link>https://shiranui1120.github.io/Orange.github.io/post/mo-dian-bi-ji.html</link><description>#大二下的模电复习笔记
+&gt; 以nbu历年做的题目来看，信号题做的比较多，本人24年为无线传输信号模拟系统，剩下的选题为单相功率分析仪（锁TI板子），简易录音屏蔽系统。</description><guid isPermaLink="true">https://shiranui1120.github.io/Orange.github.io/post/dian-sai.html</guid><pubDate>Sat, 12 Jul 2025 06:34:30 +0000</pubDate></item><item><title>现代控制理论</title><link>https://shiranui1120.github.io/Orange.github.io/post/xian-dai-kong-zhi-li-lun.html</link><description>[现代控制理论.pdf](https://github.com/user-attachments/files/21192410/default.pdf)。</description><guid isPermaLink="true">https://shiranui1120.github.io/Orange.github.io/post/xian-dai-kong-zhi-li-lun.html</guid><pubDate>Sat, 12 Jul 2025 02:46:43 +0000</pubDate></item><item><title>经典控制理论</title><link>https://shiranui1120.github.io/Orange.github.io/post/jing-dian-kong-zhi-li-lun.html</link><description>[经典控制理论.pdf](https://github.com/user-attachments/files/21192366/default.pdf)。</description><guid isPermaLink="true">https://shiranui1120.github.io/Orange.github.io/post/jing-dian-kong-zhi-li-lun.html</guid><pubDate>Sat, 12 Jul 2025 02:37:06 +0000</pubDate></item><item><title>模电笔记</title><link>https://shiranui1120.github.io/Orange.github.io/post/mo-dian-bi-ji.html</link><description>#大二下的模电复习笔记
 -[模电笔记.pdf](https://github.com/user-attachments/files/21194867/default.pdf)。</description><guid isPermaLink="true">https://shiranui1120.github.io/Orange.github.io/post/mo-dian-bi-ji.html</guid><pubDate>Sat, 12 Jul 2025 02:19:42 +0000</pubDate></item></channel></rss>

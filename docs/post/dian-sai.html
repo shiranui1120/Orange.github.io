@@ -20,9 +20,53 @@
 （注意调制度的概念，我查询到的为(Amax-Amin)/(Amax+Amin)，按个人简单理解为调制信号幅值与直流分量的比值)
 -[FM调制](https://blog.csdn.net/weixin_66634995/article/details/135971957)
 -[PM调制](https://blog.csdn.net/m0_37803477/article/details/131796491?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522dbe12aa679d2fe3b9010dd51308f6230%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=dbe12aa679d2fe3b9010dd51308f6230&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-131796491-null-null.142^v102^pc_search_result_base2&utm_term=PM%E8%B0%83%E5%88%B6&spm=1018.2226.3001.4187)
-## 1.2赛前设备准备
+## 1.2赛前设备仪器准备
+### 1.2.1赛前创电器件部分清单
 - 器件手册查询与阅读
+- [ ] 12位模数DAC7612（程控电压）                     
+- [ ] 精密运放COS2182-36V-5M-5pA RRIO
+- [ ] DC-DC升压转换器MT3608DDS
+- [ ] 开关电容器电压转换器LM2662
+- [ ] 波形发生器AD9833
+- [ ] 可编程四通道ADC-ADS8684
+- [ ] NPN 型双极结型晶体管SS9013
+- [ ] 模拟乘法器-AD633
+- [ ] 程控放大器-LTC6910-PGA
+- [ ] 模拟乘法器-AD835-readWYB
+- [ ] 电流检测ZXCT1009
+- [ ] 模拟开关-CD4051b-52-53
+- [ ] 高精度RMS-DC转换器AD637
+- [ ] 三端可调精密并联稳压器tl431
+- [ ] 高速通用运放MC33272-36V-24MHz 
+- [ ] 数字电位器-X9C103-503
+- [ ] 高速运放OPA842-200MHz 
+- [ ] 通用运放LM311
+- [ ] 高速运放OPA846-400MHz 
+- [ ] 通用运放LM358-D
+- [ ] 高速运放THS4001-30V-270MHz
+- [ ] 通用运放NE5532-30V-10MHz
+- [ ] 高速运放-电流反馈-AD8000-1.5GHz
+- [ ] 压控放大器-AD603_VGA（V-dB线性）
+- [ ] 高速运放-电流反馈THS3201-1.8GHz
+- [ ] 压控线性放大VCA810
+- [ ] 精密运放COS2177-36V-2M-2nA 
+- [ ] 有效值检测-AD637_RMS-DC
+- [ ] 有效值检测-AD737_RMS-DC
+- [ ] 有效值检测-LTC1966_RMS-DC
+
 [部分器件手册下载链接](https://ycnsiyj25rbf.feishu.cn/wiki/Q2y6wSN0PiJ85NkRLdqczMM8nzh#share-TyRodUH6joHCC8xl4JHcO3pYnNg)
+### 1.2.2创电仪器使用文档
+- 仪器说明书
+- [ ] PCB热转印机KH320C说明书                     
+- [ ] 波形发生器AFG-2225中文说明书
+- [ ] 波形发生器DG4000
+- [ ] 电子负载KL283说明书
+- [ ] 交流毫伏表TH1912A 图文并茂版/交流毫伏表TH1912A
+- [ ] 南京盛普SP-F10A数字合成函数发生器-产品手册
+- [ ] 失真度仪固纬GAD201G说明书
+- [ ] 示波器GDS2102说明书
+- [ ] 直流电子负载DL3000说明书
+[设备说明书下载链接](https://ycnsiyj25rbf.feishu.cn/wiki/Q2y6wSN0PiJ85NkRLdqczMM8nzh#share-KgYmdyMhtoeMnRxHF37cKVQgnwc)
 ## 1.3单片机基础使用
 ### 1.3.1STM32F407单片机
 （待编写，用网页跳转）
@@ -31,10 +75,10 @@
 ### 1.3.3一些库的使用
 - [CMSIS-DSP的使用与介绍](https://arm-software.github.io/CMSIS-DSP)（该DSP库有非常详尽的介绍，这里不班门弄斧）
 ## 1.4赛前培训资料与杂七杂八
+### 1.4.1电子设计竞赛题目
 - [历年电赛题目](https://ycnsiyj25rbf.feishu.cn/wiki/Q2y6wSN0PiJ85NkRLdqczMM8nzh#share-CI6AdtCQSocEEsxYcjEcTTZ3nJe)
 > [!NOTE]
-> 以nbu历年做的题目来看，信号题做的比较多，本人24年为无线传输信号模拟系统，队友为单相功率分析仪（锁TI板子）
-- [四阶滤波模块](https://pro.lceda.cn/editor#id=49eefc964ec04ce0b8576046c6b25045,tab=*ceafd680bea84109a16f879c25358e70@49eefc964ec04ce0b8576046c6b25045)（该为嘉立创网站可能失效，之后看看工程分享如何使用）。">
+> 以nbu历年做的题目来看，信号题做的比较多，本人24年为无线传输信号模拟系统，剩下的选题为单相功率分析仪（锁TI板子），简易录音屏蔽系统。">
 <meta property="og:title" content="电赛">
 <meta property="og:description" content="# 1.赛前培训
 ## 1.1 赛前理论知识梳理
@@ -46,9 +90,53 @@
 （注意调制度的概念，我查询到的为(Amax-Amin)/(Amax+Amin)，按个人简单理解为调制信号幅值与直流分量的比值)
 -[FM调制](https://blog.csdn.net/weixin_66634995/article/details/135971957)
 -[PM调制](https://blog.csdn.net/m0_37803477/article/details/131796491?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522dbe12aa679d2fe3b9010dd51308f6230%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=dbe12aa679d2fe3b9010dd51308f6230&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-131796491-null-null.142^v102^pc_search_result_base2&utm_term=PM%E8%B0%83%E5%88%B6&spm=1018.2226.3001.4187)
-## 1.2赛前设备准备
+## 1.2赛前设备仪器准备
+### 1.2.1赛前创电器件部分清单
 - 器件手册查询与阅读
+- [ ] 12位模数DAC7612（程控电压）                     
+- [ ] 精密运放COS2182-36V-5M-5pA RRIO
+- [ ] DC-DC升压转换器MT3608DDS
+- [ ] 开关电容器电压转换器LM2662
+- [ ] 波形发生器AD9833
+- [ ] 可编程四通道ADC-ADS8684
+- [ ] NPN 型双极结型晶体管SS9013
+- [ ] 模拟乘法器-AD633
+- [ ] 程控放大器-LTC6910-PGA
+- [ ] 模拟乘法器-AD835-readWYB
+- [ ] 电流检测ZXCT1009
+- [ ] 模拟开关-CD4051b-52-53
+- [ ] 高精度RMS-DC转换器AD637
+- [ ] 三端可调精密并联稳压器tl431
+- [ ] 高速通用运放MC33272-36V-24MHz 
+- [ ] 数字电位器-X9C103-503
+- [ ] 高速运放OPA842-200MHz 
+- [ ] 通用运放LM311
+- [ ] 高速运放OPA846-400MHz 
+- [ ] 通用运放LM358-D
+- [ ] 高速运放THS4001-30V-270MHz
+- [ ] 通用运放NE5532-30V-10MHz
+- [ ] 高速运放-电流反馈-AD8000-1.5GHz
+- [ ] 压控放大器-AD603_VGA（V-dB线性）
+- [ ] 高速运放-电流反馈THS3201-1.8GHz
+- [ ] 压控线性放大VCA810
+- [ ] 精密运放COS2177-36V-2M-2nA 
+- [ ] 有效值检测-AD637_RMS-DC
+- [ ] 有效值检测-AD737_RMS-DC
+- [ ] 有效值检测-LTC1966_RMS-DC
+
 [部分器件手册下载链接](https://ycnsiyj25rbf.feishu.cn/wiki/Q2y6wSN0PiJ85NkRLdqczMM8nzh#share-TyRodUH6joHCC8xl4JHcO3pYnNg)
+### 1.2.2创电仪器使用文档
+- 仪器说明书
+- [ ] PCB热转印机KH320C说明书                     
+- [ ] 波形发生器AFG-2225中文说明书
+- [ ] 波形发生器DG4000
+- [ ] 电子负载KL283说明书
+- [ ] 交流毫伏表TH1912A 图文并茂版/交流毫伏表TH1912A
+- [ ] 南京盛普SP-F10A数字合成函数发生器-产品手册
+- [ ] 失真度仪固纬GAD201G说明书
+- [ ] 示波器GDS2102说明书
+- [ ] 直流电子负载DL3000说明书
+[设备说明书下载链接](https://ycnsiyj25rbf.feishu.cn/wiki/Q2y6wSN0PiJ85NkRLdqczMM8nzh#share-KgYmdyMhtoeMnRxHF37cKVQgnwc)
 ## 1.3单片机基础使用
 ### 1.3.1STM32F407单片机
 （待编写，用网页跳转）
@@ -57,10 +145,10 @@
 ### 1.3.3一些库的使用
 - [CMSIS-DSP的使用与介绍](https://arm-software.github.io/CMSIS-DSP)（该DSP库有非常详尽的介绍，这里不班门弄斧）
 ## 1.4赛前培训资料与杂七杂八
+### 1.4.1电子设计竞赛题目
 - [历年电赛题目](https://ycnsiyj25rbf.feishu.cn/wiki/Q2y6wSN0PiJ85NkRLdqczMM8nzh#share-CI6AdtCQSocEEsxYcjEcTTZ3nJe)
 > [!NOTE]
-> 以nbu历年做的题目来看，信号题做的比较多，本人24年为无线传输信号模拟系统，队友为单相功率分析仪（锁TI板子）
-- [四阶滤波模块](https://pro.lceda.cn/editor#id=49eefc964ec04ce0b8576046c6b25045,tab=*ceafd680bea84109a16f879c25358e70@49eefc964ec04ce0b8576046c6b25045)（该为嘉立创网站可能失效，之后看看工程分享如何使用）。">
+> 以nbu历年做的题目来看，信号题做的比较多，本人24年为无线传输信号模拟系统，剩下的选题为单相功率分析仪（锁TI板子），简易录音屏蔽系统。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://shiranui1120.github.io/Orange.github.io/post/dian-sai.html">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/201747924?s=400&u=a5fdf22e1b0c3e2a90a27be7fc5dec534dabfa2e&v=4">
@@ -133,10 +221,55 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 -<a href="https://blog.csdn.net/weixin_66634995/article/details/135971957" rel="nofollow">FM调制</a><br>
 -<a href="https://blog.csdn.net/m0_37803477/article/details/131796491?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522dbe12aa679d2fe3b9010dd51308f6230%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&amp;request_id=dbe12aa679d2fe3b9010dd51308f6230&amp;biz_id=0&amp;utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-131796491-null-null.142%5Ev102%5Epc_search_result_base2&amp;utm_term=PM%E8%B0%83%E5%88%B6&amp;spm=1018.2226.3001.4187" rel="nofollow">PM调制</a></li>
 </ul>
-<h2>1.2赛前设备准备</h2>
-<ul>
-<li>器件手册查询与阅读<br>
-<a href="https://ycnsiyj25rbf.feishu.cn/wiki/Q2y6wSN0PiJ85NkRLdqczMM8nzh#share-TyRodUH6joHCC8xl4JHcO3pYnNg" rel="nofollow">部分器件手册下载链接</a></li>
+<h2>1.2赛前设备仪器准备</h2>
+<h3>1.2.1赛前创电器件部分清单</h3>
+<ul class="contains-task-list">
+<li>器件手册查询与阅读</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 12位模数DAC7612（程控电压）</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 精密运放COS2182-36V-5M-5pA RRIO</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> DC-DC升压转换器MT3608DDS</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 开关电容器电压转换器LM2662</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 波形发生器AD9833</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 可编程四通道ADC-ADS8684</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> NPN 型双极结型晶体管SS9013</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 模拟乘法器-AD633</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 程控放大器-LTC6910-PGA</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 模拟乘法器-AD835-readWYB</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 电流检测ZXCT1009</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 模拟开关-CD4051b-52-53</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 高精度RMS-DC转换器AD637</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 三端可调精密并联稳压器tl431</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 高速通用运放MC33272-36V-24MHz</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 数字电位器-X9C103-503</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 高速运放OPA842-200MHz</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 通用运放LM311</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 高速运放OPA846-400MHz</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 通用运放LM358-D</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 高速运放THS4001-30V-270MHz</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 通用运放NE5532-30V-10MHz</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 高速运放-电流反馈-AD8000-1.5GHz</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 压控放大器-AD603_VGA（V-dB线性）</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 高速运放-电流反馈THS3201-1.8GHz</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 压控线性放大VCA810</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 精密运放COS2177-36V-2M-2nA</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 有效值检测-AD637_RMS-DC</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 有效值检测-AD737_RMS-DC</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 有效值检测-LTC1966_RMS-DC</li>
+</ul>
+<p><a href="https://ycnsiyj25rbf.feishu.cn/wiki/Q2y6wSN0PiJ85NkRLdqczMM8nzh#share-TyRodUH6joHCC8xl4JHcO3pYnNg" rel="nofollow">部分器件手册下载链接</a></p>
+<h3>1.2.2创电仪器使用文档</h3>
+<ul class="contains-task-list">
+<li>仪器说明书</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> PCB热转印机KH320C说明书</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 波形发生器AFG-2225中文说明书</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 波形发生器DG4000</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 电子负载KL283说明书</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 交流毫伏表TH1912A 图文并茂版/交流毫伏表TH1912A</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 南京盛普SP-F10A数字合成函数发生器-产品手册</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 失真度仪固纬GAD201G说明书</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 示波器GDS2102说明书</li>
+<li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" aria-label="Incomplete task"> 直流电子负载DL3000说明书<br>
+<a href="https://ycnsiyj25rbf.feishu.cn/wiki/Q2y6wSN0PiJ85NkRLdqczMM8nzh#share-KgYmdyMhtoeMnRxHF37cKVQgnwc" rel="nofollow">设备说明书下载链接</a></li>
 </ul>
 <h2>1.3单片机基础使用</h2>
 <h3>1.3.1STM32F407单片机</h3>
@@ -148,13 +281,21 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <li><a href="https://arm-software.github.io/CMSIS-DSP" rel="nofollow">CMSIS-DSP的使用与介绍</a>（该DSP库有非常详尽的介绍，这里不班门弄斧）</li>
 </ul>
 <h2>1.4赛前培训资料与杂七杂八</h2>
+<h3>1.4.1电子设计竞赛题目</h3>
 <ul>
 <li><a href="https://ycnsiyj25rbf.feishu.cn/wiki/Q2y6wSN0PiJ85NkRLdqczMM8nzh#share-CI6AdtCQSocEEsxYcjEcTTZ3nJe" rel="nofollow">历年电赛题目</a></li>
 </ul>
-<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p><p>以nbu历年做的题目来看，信号题做的比较多，本人24年为无线传输信号模拟系统，队友为单相功率分析仪（锁TI板子）</p>
+<div class="markdown-alert markdown-alert-note"><p class="markdown-alert-title"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg>Note</p><p>以nbu历年做的题目来看，信号题做的比较多，本人24年为无线传输信号模拟系统，剩下的选题为单相功率分析仪（锁TI板子），简易录音屏蔽系统。对于电源题，谢谢说是为了大家安全考虑一般不做   <strong>0.0</strong></p>
 </div>
+<h3>1.4.2部分可利用模块</h3>
 <ul>
-<li><a href="https://pro.lceda.cn/editor#id=49eefc964ec04ce0b8576046c6b25045,tab=*ceafd680bea84109a16f879c25358e70@49eefc964ec04ce0b8576046c6b25045" rel="nofollow">四阶滤波模块</a>（该为嘉立创网站可能失效，之后看看工程分享如何使用）</li>
+<li><a href="https://pro.lceda.cn/editor#id=49eefc964ec04ce0b8576046c6b25045,tab=*ceafd680bea84109a16f879c25358e70@49eefc964ec04ce0b8576046c6b25045" rel="nofollow">四阶滤波模块</a>（该为嘉立创网站可能失效，之后看看工程分享如何使用）（当然自己设计一个也很简单）<br>
+-<a href="https://tools.analog.com/cn/filterwizard/" rel="nofollow">滤波器设计网站1</a>     -<a href="https://webench.ti.com/filter-design-tool/filter-type" rel="nofollow">滤波器设计网站2</a></li>
+</ul>
+<h3>1.4.3设计报告</h3>
+<ul>
+<li>设计报告写作规范<br>
+-<a href="https://ycnsiyj25rbf.feishu.cn/wiki/Q2y6wSN0PiJ85NkRLdqczMM8nzh#share-FIRRd0cTrobo3uxzYAQcRQRXnTb" rel="nofollow">设计报告模板、要求、参考（参考文档未完全按要求修改，仅为本人培训报告与比赛报告）</a></li>
 </ul></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
