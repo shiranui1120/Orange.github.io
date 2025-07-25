@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Orange's Blog</title><link>https://shiranui1120.github.io/Orange.github.io</link><description>杂七杂八</description><copyright>Orange's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/201747924?s=400&amp;u=a5fdf22e1b0c3e2a90a27be7fc5dec534dabfa2e&amp;v=4</url><title>avatar</title><link>https://shiranui1120.github.io/Orange.github.io</link></image><lastBuildDate>Fri, 25 Jul 2025 02:42:44 +0000</lastBuildDate><managingEditor>Orange's Blog</managingEditor><ttl>60</ttl><webMaster>Orange's Blog</webMaster><item><title>电赛</title><link>https://shiranui1120.github.io/Orange.github.io/post/dian-sai.html</link><description>![Image](https://github.com/user-attachments/assets/e15dc2a4-7d25-4762-a7c8-66c27ddcbe26)
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Orange's Blog</title><link>https://shiranui1120.github.io/Orange.github.io</link><description>杂七杂八</description><copyright>Orange's Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/201747924?s=400&amp;u=a5fdf22e1b0c3e2a90a27be7fc5dec534dabfa2e&amp;v=4</url><title>avatar</title><link>https://shiranui1120.github.io/Orange.github.io</link></image><lastBuildDate>Fri, 25 Jul 2025 08:45:40 +0000</lastBuildDate><managingEditor>Orange's Blog</managingEditor><ttl>60</ttl><webMaster>Orange's Blog</webMaster><item><title>电赛</title><link>https://shiranui1120.github.io/Orange.github.io/post/dian-sai.html</link><description>![Image](https://github.com/user-attachments/assets/e15dc2a4-7d25-4762-a7c8-66c27ddcbe26)
 
 # 1.赛前培训
 ## 1.1 赛前理论知识梳理
@@ -14,49 +14,49 @@
 ## 1.2赛前设备仪器准备
 ### 1.2.1赛前创电器件部分清单
   **器件手册查询与阅读**
-- [x] 12位模数DAC7612（程控电压）                     
-- [ ] 精密运放COS2182-36V-5M-5pA RRIO
-- [ ] DC-DC升压转换器MT3608DDS
-- [ ] 开关电容器电压转换器LM2662
-- [ ] 波形发生器AD9833
-- [ ] 可编程四通道ADC-ADS8684
-- [ ] NPN 型双极结型晶体管SS9013
-- [ ] 模拟乘法器-AD633
-- [ ] 程控放大器-LTC6910-PGA
-- [ ] 模拟乘法器-AD835-readWYB
-- [ ] 电流检测ZXCT1009
-- [ ] 模拟开关-CD4051b-52-53
-- [ ] 高精度RMS-DC转换器AD637
-- [ ] 三端可调精密并联稳压器tl431
-- [ ] 数字电位器-X9C103-503
-- [ ] 通用运放LM311
-- [ ] 通用运放LM358-D
-- [x] 通用运放NE5532-30V-10MHz
-- [ ] 高速通用运放MC33272-36V-24MHz 
-- [ ] 高速运放OPA842-200MHz 
-- [ ] 高速运放THS4001-30V-270MHz
-- [ ] 高速运放OPA846-400MHz 
-- [ ] 高速运放-电流反馈-AD8000-1.5GHz
-- [ ] 高速运放-电流反馈THS3201-1.8GHz
-- [x] 压控放大器-AD603_VGA（V-dB线性）
-- [ ] 压控线性放大VCA810
-- [ ] 精密运放COS2177-36V-2M-2nA 
-- [ ] 有效值检测-AD637_RMS-DC
-- [ ] 有效值检测-AD737_RMS-DC
-- [ ] 有效值检测-LTC1966_RMS-DC
+-  12位模数DAC7612（程控电压）                     
+-  精密运放COS2182-36V-5M-5pA RRIO
+-  DC-DC升压转换器MT3608DDS
+-  开关电容器电压转换器LM2662
+-  波形发生器AD9833
+-  可编程四通道ADC-ADS8684
+-  NPN 型双极结型晶体管SS9013
+-  模拟乘法器-AD633
+-  程控放大器-LTC6910-PGA
+-  模拟乘法器-AD835-readWYB
+-  电流检测ZXCT1009
+-  模拟开关-CD4051b-52-53
+-  高精度RMS-DC转换器AD637
+-  三端可调精密并联稳压器tl431
+-  数字电位器-X9C103-503
+-  通用运放LM311
+-  通用运放LM358-D
+-  通用运放NE5532-30V-10MHz
+-  高速通用运放MC33272-36V-24MHz 
+-  高速运放OPA842-200MHz 
+-  高速运放THS4001-30V-270MHz
+-  高速运放OPA846-400MHz 
+-  高速运放-电流反馈-AD8000-1.5GHz
+-  高速运放-电流反馈THS3201-1.8GHz
+-  压控放大器-AD603_VGA（V-dB线性）
+-  压控线性放大VCA810
+-  精密运放COS2177-36V-2M-2nA 
+-  有效值检测-AD637_RMS-DC
+-  有效值检测-AD737_RMS-DC
+-  有效值检测-LTC1966_RMS-DC
 
 [部分器件手册下载链接](https://ycnsiyj25rbf.feishu.cn/wiki/Q2y6wSN0PiJ85NkRLdqczMM8nzh#share-TyRodUH6joHCC8xl4JHcO3pYnNg)
 ### 1.2.2创电仪器使用文档
   **仪器说明书**
-- [ ] PCB热转印机KH320C说明书                     
-- [ ] 波形发生器AFG-2225中文说明书
-- [ ] 波形发生器DG4000
-- [ ] 电子负载KL283说明书
-- [ ] 交流毫伏表TH1912A 图文并茂版/交流毫伏表TH1912A
-- [ ] 南京盛普SP-F10A数字合成函数发生器-产品手册
-- [ ] 失真度仪固纬GAD201G说明书
-- [ ] 示波器GDS2102说明书
-- [ ] 直流电子负载DL3000说明书
+-  PCB热转印机KH320C说明书                     
+-  波形发生器AFG-2225中文说明书
+-  波形发生器DG4000
+-  电子负载KL283说明书
+-  交流毫伏表TH1912A 图文并茂版/交流毫伏表TH1912A
+-  南京盛普SP-F10A数字合成函数发生器-产品手册
+-  失真度仪固纬GAD201G说明书
+-  示波器GDS2102说明书
+-  直流电子负载DL3000说明书
 
 [设备说明书下载链接](https://ycnsiyj25rbf.feishu.cn/wiki/Q2y6wSN0PiJ85NkRLdqczMM8nzh#share-KgYmdyMhtoeMnRxHF37cKVQgnwc)
 ## 1.3单片机基础使用
