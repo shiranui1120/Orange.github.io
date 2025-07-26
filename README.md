@@ -7,4 +7,5 @@
 **有问题可参考**
 - [Gmeek快速上手](https://blog.meekdai.com/post/Gmeek-kuai-su-shang-shou.html)
 - [Gmeek进阶](https://meekdai.github.io/tag.html#Gmeek)
+- [Gmeek UI 增强插件使用教程](https://code.buxiantang.top/post/%F0%9F%8D%8E%20Gmeek%20UI%20-zeng-qiang-cha-jian-shi-yong-jiao-cheng.html)
 ### Powered by :heart: [Gmeek](https://github.com/Meekdai/Gmeek)
